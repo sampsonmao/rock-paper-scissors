@@ -1,0 +1,18 @@
+button {
+    height: 170px;
+    width: 170px;
+    border: none;
+    background-color: white;
+}
+
+#rock {
+    background-image: url("images/handRock.png");
+}
+
+#paper {
+    background-image: url("images/handPaper.png");
+}
+
+#scissors {
+    background-image: url("images/handScissors.png");
+}
