@@ -53,23 +53,23 @@ function playGame(e) {
     if (gameObject.result == 'win') {
         numWin += 1;
         document.getElementById("playerScore").textContent = numWin;
-        document.getElementById("playerChoice").textContent = "You chose: " + gameObject.player + "."
-        document.getElementById("computerChoice").textContent = "Computer plays: " + gameObject.computer + "."
-        document.getElementById("result").textContent = "Win!"
+        document.getElementById("playerChoice").textContent = `You chose: ${gameObject.player}.`
+        document.getElementById("computerChoice").textContent = `Computer plays: ${gameObject.computer}.`
+        document.getElementById("result").textContent = "You win!"
     }
     else if (gameObject.result == 'lose') {
         numLose += 1;
         document.getElementById("computerScore").textContent = numLose;
-        document.getElementById("playerChoice").textContent = "You chose: " + gameObject.player + "."
-        document.getElementById("computerChoice").textContent = "Computer plays: " + gameObject.computer + "."
-        document.getElementById("result").textContent = "Lose."
+        document.getElementById("playerChoice").textContent = `You chose: ${gameObject.player}.`
+        document.getElementById("computerChoice").textContent = `Computer plays: ${gameObject.computer}.`
+        document.getElementById("result").textContent = "You lose."
     }
     else if (gameObject.result == 'draw') {
         numDraw += 1;
         document.getElementById("drawScore").textContent = numDraw;
-        document.getElementById("playerChoice").textContent = "You chose: " + gameObject.player + "."
-        document.getElementById("computerChoice").textContent = "Computer plays: " + gameObject.computer + "."
-        document.getElementById("result").textContent = "Draw!"
+        document.getElementById("playerChoice").textContent = `You chose: ${gameObject.player}.`
+        document.getElementById("computerChoice").textContent = `Computer plays: ${gameObject.computer}.`
+        document.getElementById("result").textContent = "It's a draw!"
     }
     else {
         return
