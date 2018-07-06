@@ -31,13 +31,13 @@ button {
 
 
 #rock {
-    background-image: url("images/handRock.png");
+    background-image: url("Images/handRock.png");
 }
 
 #paper {
-    background-image: url("images/handPaper.png");
+    background-image: url("Images/handPaper.png");
 }
 
 #scissors {
-    background-image: url("images/handScissors.png");
+    background-image: url("Images/handScissors.png");
 }
